@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 7, 2024, 11:11:49 PM
+    Author     : Admin
+*/
+
+/*#27374D*/
+/*#526D82*/
+/*#9DB2BF*/
+/*#DDE6ED*/
+/*#9A3B3B*/
+*{
+    color: #27374D;
+}
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.customer{
+   margin-top: 30px;
+   border: 1px solid #B4B4B8;
+   border-radius: 15px;
+   
+}
+.cal{
+   
+}
+.data{
+    display: none;
+    margin-top: 5px;
+}
+
+.paybuttom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    
+}
+.paywith{
+    
+}
+
+.paywith img{
+    width: 200px;
+    border-radius: 15px;
+}
+.submitbuttom{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 900px;
+
+    width: fit-content;
+}
+
+.bill{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #B4B4B8;}

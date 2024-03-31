@@ -1,0 +1,267 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 5, 2024, 11:31:10 AM
+    Author     : Admin
+*/
+
+/*#2C3639*/
+/*#3F4E4F*/
+/*#A27B5C*/
+/*#DCD7C9*/
+/*#9A3B3B*/
+/*HEAD*/
+.head{
+    background-color: #A27B5C;
+}
+h1{
+    text-align: center;
+}
+.centermenu .navbar-nav{
+    margin-right: 25px;
+}
+.centermenuitem a{
+    color: #DCD7C9;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.centermenuitem a:hover{
+    color:white;
+}
+.centermenuitem i{
+    color: #DCD7C9;
+    font-size: 20px;
+   
+}
+
+.leftmenu{
+    color: #DCD7C9;
+   
+}
+
+.leftmenu i {
+    margin-left: 25px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.leftmenu i:hover{
+    color: white
+}
+
+/*slideimg*/
+.bar{
+    width: 70vmin ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:32%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #fff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.6) ;
+    background-color:  #DCD7C9;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 7s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.wrapper img{
+    width: 100%;
+}
+
+/*menutype*/
+.main{
+    margin-top: 10px;
+}
+
+.foodtitle{
+    font-size: 20px; 
+    font-weight: bolder ;
+    color:#A27B5C; 
+    margin-left: 10px;
+    
+}
+
+.foodtype{
+    display: inline-block;
+    position: relative;
+    grid-auto-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+    background-color: #fff;
+}
+.foodtype:hover{
+    transform: scale(1.10);
+}
+.foodtype img{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.type{
+    text-align: center;
+}
+.type a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/*recom food & popu*/
+.dish{
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    transition: .2s ease-in-out;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.dish img{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+
+.dish h5{
+    margin-left: 5px;
+}
+.dish p{
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.price h5{
+    color: #9A3B3B;
+}
+
+.listfood{
+    margin-top: 15px;
+}
+.item{
+    margin-right: 20px;
+}
+.item .image img{
+    width: 350px;
+    height: 350px;
+}
+.details{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    justify-content: end;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    
+}
+
+.details:hover{
+    opacity: 1;
+}
+
+.details > * {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.details:hover > * {
+    transform: translateY(0px);
+   
+}
+
+.details h5{
+    color: #fff;
+    font-size: 20px;
+    
+}
+.details p{
+    color: #fff;
+    font-size: 10px;
+}
+.price h5{
+    color: crimson;
+}
+.price i{
+    padding-right: 55px;
+    font-size: 30px;
+    color: #DCD7C9;
+}
+
+.pricemain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.pricemain h5{
+    color: crimson;
+}
+.pricemain i{
+    color: #A27B5C;
+}
+.add-to-cart{
+    cursor: pointer;
+}
+.add-to-cart:hover{
+    color: red;
+}
+.footer{
+    margin-top: 20px;
+    background-color: #A27B5C;
+}
+.footer .logo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
